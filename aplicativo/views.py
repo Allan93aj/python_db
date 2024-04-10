@@ -48,4 +48,4 @@ def editarUsuarios(request, id):
         edit_usuario.save()
         return redirect('../usuarios')
     else:
-        return render(request, 'editarUsuario/index.html', editarUser)
+        return render(request, 'editarUsuario/editarUsuario.html', editarUser)
